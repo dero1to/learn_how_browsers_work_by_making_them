@@ -4,12 +4,12 @@ use crate::error::Error;
 use alloc::format;
 
 #[derive(Debug, Clone)]
-
 pub struct Header {
     name: String,
     value: String,
 }
 
+#[derive(Debug, Clone)]
 pub struct HttpResponse {
     version: String,
     status_code: u32,
